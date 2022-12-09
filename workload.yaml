@@ -3,8 +3,8 @@ kind: Workload
 metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: tdemo1native
-  name: tdemo1native
+    app.kubernetes.io/part-of: tdemo0native
+  name: tdemo0native
   namespace: default
 spec:
   build:
@@ -17,4 +17,4 @@ spec:
     git:
       ref:
         branch: main
-      url: https://github.com/tfynes-pivotal/tdemo1native
+      url: https://github.com/tfynes-pivotal/tdemo0native
